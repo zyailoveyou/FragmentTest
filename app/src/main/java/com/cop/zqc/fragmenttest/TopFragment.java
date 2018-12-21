@@ -14,11 +14,11 @@ public class TopFragment extends Fragment implements View.OnClickListener {
     public interface OnTopButtonClickedListener
     {
         public void onClick(String name);
+
     }
 
 
     private OnTopButtonClickedListener listener;
-
 
     @Override
     public void onAttach(Context context) {
